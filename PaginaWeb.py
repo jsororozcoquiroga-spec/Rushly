@@ -100,6 +100,27 @@ with st.expander("✅ Fase 1: Diseño Conceptual"):
           - Validar el prototipo en escenarios de prueba.  
         """)
 
+    with st.expander("📊 Encuesta Previa"):
+        st.write("""
+        Para la construcción de los primeros **bocetos del vehículo** y la definición de los subsistemas,  
+        se aplicó una encuesta con el fin de recopilar información sobre **preferencias, expectativas y necesidades** relacionadas con la movilidad sostenible.  
+        Los resultados de esta encuesta orientaron las decisiones de diseño y priorización de funcionalidades.  
+        """)
+
+    with st.expander("🧩 Subsistemas del Proyecto"):
+        st.write("""
+        Rushly se concibe como un sistema integrado compuesto por diversos **subsistemas**:  
+        - **Subsistema Mecánico:** estructura, chasis y elementos de transmisión.  
+        - **Subsistema Electrónico:** sensores, actuadores y placas de control.  
+        - **Subsistema de Software:** algoritmos de monitoreo, control y comunicación.  
+        - **Subsistema de Control:** estrategias para garantizar estabilidad, seguridad y eficiencia en la movilidad.  
+
+        Estos subsistemas fueron mapeados para visualizar su interacción y dependencia.
+        """)
+
+        # Línea para mostrar el mapa de subsistemas (cambia "MapaSubsistemas.png" por el nombre del archivo que subas)
+        st.image("SistemaYSubsistema.png", caption="Mapa de Subsistemas de Rushly", use_column_width=True)
+
     with st.expander("📍 Alcance Inicial"):
         st.write("""
         En la fase inicial, Rushly se centra en el **diseño conceptual y prototipado básico**, incorporando sistemas electrónicos, mecánicos y de control.  
@@ -112,6 +133,7 @@ with st.expander("✅ Fase 1: Diseño Conceptual"):
         Para el equipo, representa un espacio de **aprendizaje y aplicación práctica** de conocimientos en ingeniería mecatrónica.  
         A nivel social, promueve una visión de **movilidad más limpia y eficiente**, con potencial de inspirar desarrollos similares en el futuro.
         """)
+
 
 with st.expander("🔄 Fase 2: Desarrollo de Prototipo"):
     st.write("""
