@@ -21,20 +21,18 @@ Rushly es un vehículo innovador diseñado con un enfoque en la **sostenibilidad
 Su desarrollo integra diseño mecánico, electrónico y sistemas inteligentes para transformar la movilidad.
 """)
 
+st.markdown("---")
+
 # Características
 st.header("Características Clave")
-col1, col2, col3 = st.columns(3)
 
-with col1:
-    st.subheader("⚡ Eficiencia Energética")
+with st.expander("⚡ Eficiencia Energética"):
     st.write("Optimizado para reducir consumo y maximizar el rendimiento.")
 
-with col2:
-    st.subheader("🌱 Sostenibilidad")
+with st.expander("🌱 Sostenibilidad"):
     st.write("Diseñado con materiales eco-amigables y procesos responsables.")
 
-with col3:
-    st.subheader("🤖 Tecnología Inteligente")
+with st.expander("🤖 Tecnología Inteligente"):
     st.write("Integración de sistemas avanzados para control y seguridad.")
 
 st.markdown("---")
@@ -46,7 +44,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.image("https://via.placeholder.com/150", width=120)
     st.subheader("Cesar David Chacón Landinez")
-    st.caption("Lider Del Proyecto")
+    st.caption("Líder del Proyecto")
 
 with col2:
     st.image("https://via.placeholder.com/150", width=120)
@@ -73,7 +71,7 @@ with col5:
 with col6:
     st.image("https://via.placeholder.com/150", width=120)
     st.subheader("Juan David Ríos Muñoz")
-    st.caption("Diseñador Del Control")
+    st.caption("Diseñador del Control")
 
 st.markdown("---")
 
@@ -82,8 +80,38 @@ st.header("Roadmap del Proyecto")
 
 with st.expander("✅ Fase 1: Diseño Conceptual"):
     st.write("""
-    En esta fase se definió la idea inicial del vehículo, sus subsistemas y se evaluaron diferentes alternativas.
+    En esta fase se definió la **idea inicial del vehículo Rushly**, estableciendo su justificación, objetivos y alcance.  
+    Se planteó como un proyecto orientado a la **movilidad sostenible**, integrando innovación tecnológica con eficiencia energética.  
     """)
+
+    with st.expander("📌 Justificación del Proyecto"):
+        st.write("""
+        Rushly nace como respuesta a la necesidad de **movilidad sostenible e inteligente**, integrando innovación tecnológica con eficiencia energética.  
+        El proyecto busca demostrar que es posible desarrollar soluciones de transporte respetuosas con el medio ambiente y, al mismo tiempo, accesibles y confiables.
+        """)
+
+    with st.expander("🎯 Objetivos del Proyecto"):
+        st.write("""
+        - **Objetivo General:** Desarrollar un prototipo de vehículo innovador enfocado en sostenibilidad, eficiencia y tecnología inteligente.  
+        - **Objetivos Específicos:**  
+          - Integrar sensores avanzados para control y seguridad.  
+          - Optimizar el consumo energético de los sistemas.  
+          - Diseñar software de gestión y monitoreo.  
+          - Validar el prototipo en escenarios de prueba.  
+        """)
+
+    with st.expander("📍 Alcance Inicial"):
+        st.write("""
+        En la fase inicial, Rushly se centra en el **diseño conceptual y prototipado básico**, incorporando sistemas electrónicos, mecánicos y de control.  
+        También se ejecutan pruebas preliminares de hardware y software, que servirán como base para futuras etapas de validación y escalamiento del proyecto.
+        """)
+
+    with st.expander("✅ Viabilidad y Beneficios"):
+        st.write("""
+        Rushly aporta beneficios tanto en el ámbito académico como en el tecnológico.  
+        Para el equipo, representa un espacio de **aprendizaje y aplicación práctica** de conocimientos en ingeniería mecatrónica.  
+        A nivel social, promueve una visión de **movilidad más limpia y eficiente**, con potencial de inspirar desarrollos similares en el futuro.
+        """)
 
 with st.expander("🔄 Fase 2: Desarrollo de Prototipo"):
     st.write("""
@@ -97,9 +125,8 @@ with st.expander("⏳ Fase 3: Pruebas y Validaciones"):
 
 with st.expander("🚀 Fase 4: Resultado Final"):
     st.write("""
-    Despues de todas las pruebas y ajustes realizados, Rushly a quedado de la siguiente manera.
+    Después de todas las pruebas y ajustes realizados, Rushly ha quedado de la siguiente manera.
     """)
-
 
 st.markdown("---")
 
