@@ -137,8 +137,43 @@ with st.expander("✅ Fase 1: Diseño Conceptual"):
 
 with st.expander("🔄 Fase 2: Desarrollo de Prototipo"):
     st.write("""
-    Construcción del primer prototipo físico y validación de componentes clave.
+    En esta fase se concreta el **primer prototipo físico de Rushly**, tomando como base el diseño conceptual y los requerimientos definidos en la fase inicial.
     """)
+
+    with st.expander("📌 Criterios de Selección"):
+        st.write("""
+        Para garantizar la funcionalidad y eficiencia del prototipo, se establecieron **criterios de selección de componentes**.  
+        Estos incluyeron:  
+        - Bajo consumo energético de sensores y actuadores.  
+        - Disponibilidad y compatibilidad de componentes electrónicos (MPU-6050, VL53L0X, ESP32, Raspberry Pi).  
+        - Resistencia mecánica de materiales para el chasis y piezas estructurales.  
+        - Relación costo-beneficio en la adquisición de baterías y motores.  
+        """)
+
+    with st.expander("✏️ Bocetos del Prototipo"):
+        st.write("""
+        Se desarrollaron **bocetos iniciales** que permitieron visualizar la distribución de los subsistemas.  
+        Estos esquemas facilitaron la identificación de la ubicación de:  
+        - Sensores de movimiento y distancia.  
+        - Componentes electrónicos de control y comunicación.  
+        - Elementos mecánicos como ruedas, chasis y sistemas de transmisión.  
+        
+        A continuación, se muestran algunos de los bocetos elaborados:
+        """)
+
+        # Bocetos convertidos a PNG
+        st.image("Boceto1.png", caption="Boceto del Prototipo - Vista 1", use_container_width=True)
+        st.image("Boceto2.png", caption="Boceto del Prototipo - Vista 2", use_container_width=True)
+
+    with st.expander("📐 Cinemática y Dinámica"):
+        st.write("""
+        Durante esta etapa se analizaron la **cinemática y la dinámica** del prototipo para validar su viabilidad.  
+        - **Cinemática:** se definieron las trayectorias y grados de libertad del vehículo, asegurando que pudiera realizar desplazamientos estables y maniobras de control.  
+        - **Dinámica:** se evaluaron las fuerzas y momentos que actúan sobre la estructura, considerando la distribución de peso, el torque de los motores y la fricción con la superficie.  
+
+        Estos análisis permitieron optimizar el diseño del prototipo antes de su construcción final.  
+        """)
+
 
 with st.expander("⏳ Fase 3: Pruebas y Validaciones"):
     st.write("""
