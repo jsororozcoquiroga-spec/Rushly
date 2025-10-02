@@ -119,7 +119,7 @@ with st.expander("✅ Fase 1: Diseño Conceptual"):
         """)
 
         # Línea para mostrar el mapa de subsistemas (cambia "MapaSubsistemas.png" por el nombre del archivo que subas)
-        st.image("SistemaYSubsistema.png", caption="Mapa de Subsistemas de Rushly", use_column_width=True)
+        st.image("SistemaYSubsistema.png", caption="Mapa de Subsistemas de Rushly", use_container_width=True)
 
     with st.expander("📍 Alcance Inicial"):
         st.write("""
